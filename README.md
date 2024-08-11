@@ -13,7 +13,8 @@ An official implementation of convolution-augmented Mamba for speech recognition
 
 2. Install Packages.
 ```
-conda create --name Slytherin python=3.9
+conda create --name Slytherin python=3.9 --solver classic
+conda init (Close and reopen shell after)
 conda activate Slytherin
 pip install -r requirements.txt
 ```

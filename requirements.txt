@@ -1,0 +1,11 @@
+numpy
+tqdm
+librosa
+soundfile
+wandb
+
+torch --index-url https://download.pytorch.org/whl/cu124
+torchaudio --index-url https://download.pytorch.org/whl/cu124
+mamba-ssm
+causal-conv1d
+speechbrain==1.0.0
