@@ -42,12 +42,12 @@ torchrun --nproc-per-node 4 train_CTC.py hparams/CTC/conmamba_large.yaml --data_
 
 ## Acknowledgement
 
-We acknowledge the wonderful work of [Mamba](https://arxiv.org/abs/2312.00752) and [Vision Mamba](https://arxiv.org/abs/2401.09417). We borrowed their implementation of [Mamba](https://github.com/state-spaces/mamba) and [bidirectional Mamba](https://github.com/hustvl/Vim). The training recipes are adapted from [SpeechBrain](https://speechbrain.github.io).
+Acknowledgement goes to the wonderful work of [Mamba](https://arxiv.org/abs/2312.00752) and [Vision Mamba](https://arxiv.org/abs/2401.09417). I borrowed their implementation of [Mamba](https://github.com/state-spaces/mamba) and [bidirectional Mamba](https://github.com/hustvl/Vim). The training recipes are adapted from [SpeechBrain](https://speechbrain.github.io).
 
-## Citation
-If you find this work helpful, please consider citing:
+<!-- ## Citation
+If you find this work helpful, please consider citing: -->
 
-```bibtex
+<!-- ```bibtex
 @misc{jiang2024speechslytherin,
       title={Speech Slytherin: Examining the Performance and Efficiency of Mamba for Speech Separation, Recognition, and Synthesis}, 
       author={Xilin Jiang and Yinghao Aaron Li and Adrian Nicolas Florea and Cong Han and Nima Mesgarani},
@@ -57,7 +57,7 @@ If you find this work helpful, please consider citing:
       primaryClass={eess.AS},
       url={https://arxiv.org/abs/2407.09732}, 
 }
-```
+``` -->
 
-You may also like our Mamba for speech separation: https://github.com/xi-j/Mamba-TasNet
+<!-- You may also like our Mamba for speech separation: https://github.com/xi-j/Mamba-TasNet -->
 
