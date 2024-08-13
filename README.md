@@ -30,6 +30,16 @@ To train a ConMamba Encoder-Mamba Decoder model on one GPU:
 ```
 python train_S2S.py hparams/S2S/conmambamamba_large(small).yaml --data_folder <YOUR_PATH_TO_LIBRISPEECH> --precision bf16 
 ```
+Note : On first run, ensure that the hparams.yaml file has the `skip_prep` parameter set to `False`. Then take the newly created train.csv files and put them in a new directory `/manifests`.
+```
+skip_prep: False
+train_csv: !ref <output_folder>/train.csv
+valid_csv: !ref <output_folder>/dev-clean.csv
+test_csv:
+    - !ref <output_folder>/test-clean.csv
+    - !ref <output_folder>/test-other.csv
+```
+
 To train a ConMamba Encoder model with a character-level CTC loss on four GPUs:
 ```
 torchrun --nproc-per-node 4 train_CTC.py hparams/CTC/conmamba_large.yaml --data_folder <YOUR_PATH_TO_LIBRISPEECH> --precision bf16 
