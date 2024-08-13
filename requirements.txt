@@ -3,10 +3,10 @@ tqdm
 librosa
 soundfile
 wandb
-sox
 
-torch --index-url https://download.pytorch.org/whl/cu124
-torchaudio --index-url https://download.pytorch.org/whl/cu124
-mamba-ssm
-causal-conv1d
+torch==2.0.1 --index-url https://download.pytorch.org/whl/cu124
+torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu124
+torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu124
+mamba-ssm==1.2.0.post1
+causal-conv1d==1.1.1
 speechbrain==1.0.0
