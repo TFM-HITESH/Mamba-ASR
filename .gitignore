@@ -1,3 +1,13 @@
 /train_100
 /train_360
 /train_500
+
+train-clean-100.tar.gz
+train-clean-360.tar.gz
+train-clean-500.tar.gz'
+
+dataset
+
+wget-log
+
+*.pyc
