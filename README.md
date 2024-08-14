@@ -1,6 +1,6 @@
 # ConMamba [![arXiv](https://img.shields.io/badge/arXiv-2407.09732-<COLOR>.svg)](https://arxiv.org/abs/2407.09732)
 
-An official implementation of convolution-augmented Mamba for speech recognition.
+An implementation of convolution-augmented Mamba for speech recognition.
 
 ## Architecture
 
