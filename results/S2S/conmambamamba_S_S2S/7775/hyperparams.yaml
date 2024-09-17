@@ -54,7 +54,7 @@ no_lm: false
 # Empirically, we found that this value should be >= 128.
 # Please, set your parameters accordingly.
 number_of_epochs: 110
-batch_size: 16 # This works for 2x GPUs with 32GB
+batch_size: 1 # This works for 2x GPUs with 32GB
 ctc_weight: 0.3
 grad_accumulation_factor: 1
 max_grad_norm: 5.0
@@ -100,7 +100,7 @@ dynamic_batch_sampler_valid:
 
 # Dataloader options
 train_dataloader_opts:
-  batch_size: 16
+  batch_size: 1
   shuffle: true
   num_workers: 8
 
