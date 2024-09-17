@@ -2,6 +2,9 @@
 
 An implementation of convolution-augmented Mamba for speech recognition.
 
+## Notebook Implementation
+Google Colab Link : https://colab.research.google.com/drive/1DoHke3cXsdBnjverODNRAdQ0N9zoTMeM?usp=sharing
+
 ## Architecture
 
 <img src="figures/conmamba.png" alt="conmamba" width="80%">
